@@ -1,0 +1,9 @@
+-----------------------BlackPhish------------------------------
+
+git clone https://github.com/iinc0gnit0/BlackPhish
+cd BlackPhish
+./install.sh
+sudo python3 blackphish.py
+
+open webbrowser tpye :- http://127.0.0.1
+
