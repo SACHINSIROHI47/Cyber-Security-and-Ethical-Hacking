@@ -1,0 +1,5 @@
+ipconfig/all
+arp -a
+tracert www.ccsuniversity.ac.in
+nslookup www.ccsuniversity.ac.in
+ping 216.10.247.228 -t

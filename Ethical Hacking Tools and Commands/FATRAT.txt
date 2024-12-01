@@ -1,0 +1,9 @@
+The FatRat is a free and open-source tool used as an exploiting tool. The FatRat tool adds malware with a payload and after that, the malware that you have developed can be executed on different types of operating systems such as android, windows, mac, Linux. The FatRat is a powerful tool that can bypass most of the Antivirus easily and can maintain the connection between attacker and victim. Fatrat Tool can help in generating backdoors, system exploitation, post-exploitation attacks, browser attacks, DLL files, 
+
+***------------------------------
+git clone https://github.com/Screetsec/TheFatRat.git
+cd TheFatRat
+ls
+chmod +x setup.sh
+./setup.sh
+msfvenom

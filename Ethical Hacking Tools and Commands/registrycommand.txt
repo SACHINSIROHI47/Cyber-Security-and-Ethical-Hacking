@@ -1,0 +1,4 @@
+take backup of registry in cmd
+system32/config/-----xcopy *.* d:\regback\
+
+copy *.* d:\regback\

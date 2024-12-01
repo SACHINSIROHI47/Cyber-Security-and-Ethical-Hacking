@@ -1,0 +1,14 @@
+apt-get install git
+git clone https://github.com/s0md3v/ReconDog.git
+ls
+cd ReconDog
+ls -l dog
+chomod +x dog
+./dog
+select the type
+
+----------install httrack-------
+->apt-get install httrack
+->httrack http://www.webscantest.com -O /tmp/webscantest
+->httrack https://null-byte.wonderhowto.com/forum/cryptolocker-innovative-creative-hack-0151753/ -O /tmp/crytoloc
+

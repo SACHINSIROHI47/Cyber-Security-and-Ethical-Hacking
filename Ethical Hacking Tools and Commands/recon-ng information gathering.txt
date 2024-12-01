@@ -1,0 +1,17 @@
+Recon-ng is a comprehensive set of information gathering modules. It features a large number of modules that can be used to gather information.
+ng works and acts as a web application/website scanner.
+
+
+->apt-get install recon-ng
+->recon-ng
+->workspaces
+->marketplace
+->marketplace search
+->marketplace install recon/companies-domains/viewdns_reverse_whois
+->modules load recon/companies-domains/viewdns_reverse_whois
+->options set SOURCE google.com
+->run
+
+
+
+

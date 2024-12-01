@@ -1,0 +1,12 @@
+Send Spoof WhatsApp SMS using Kali linux 
+
+apt update
+apt install python3
+sudo apt install python3-pip
+install git
+python3 -m pip install requests
+git clone ............
+cd SpamWa
+python3 spam.py
+
++91..............

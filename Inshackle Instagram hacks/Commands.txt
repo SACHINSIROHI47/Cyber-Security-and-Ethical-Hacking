@@ -1,0 +1,9 @@
+Requirements
+
+apt install git
+apt install curl
+apt install openssl
+git clone ........
+cd inshakle
+chmod +x inshakle.sh
+bash insshakle.sh

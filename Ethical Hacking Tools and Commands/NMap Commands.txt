@@ -1,0 +1,12 @@
+1) Regular scan= nmap 192.168.29.141/24
+2) Intense scan= nmap T4 -A -v 192.168.29.141/24
+3) Intense scan plus UDP= nmap -sS -sU -T4 -A -v 192.168.29.141/24
+4) Intense scan, all TCP ports= nmap -p 1-65535 -T4 -A -v 192.168.29.141/24
+5) Intense scan, no ping= nmap -T4 -A -v -Pn 192.168.29.141/24
+6) Ping scan= nmap -sn 192.168.29.141/24
+7) Quick scan= nmap -T4 -F 192.168.29.141/24
+8) Quick scan plus= nmap -sV -T4 -O -F --version-light 192.168.29.141/24
+9) Quick traceroute= nmap -sn --traceroute 192.168.29.141/24
+10) Slow comprehensive scan= nmap -sS -sU -T4 -A -v -PE -PP -PS80,443 -PA3389 
+-PU40125 -PY -g 53 --script "default or (discovery and safe)" 192.168.29.141/24
+

@@ -1,0 +1,9 @@
+Requirements
+
+apt install git
+apt install curl
+apt install openssl
+git clone ......
+cd insfollow
+chmod +x insfollow.sh
+bash insfollow.sh

@@ -1,0 +1,49 @@
+NESSUS DOWNLOAD
+
+Register on https://www.tenable.com/downloads/nessus?loginAttempted=true  
+First download - Nessus-10.0.2-debian6_amd64.deb
+apt update && apt upgrade
+dpkg -i Nessus-10.0.2-debian6_amd64.deb
+sudo /bin/systemctl start nessusd.service
+https://kali:8834/
+go to advance accept risk and continue
+Enter Licence key send by email
+and set login name and password
+when set up complete nessus download some packages 
+username-sachin
+pwd-12345
+
+
+dpkg(driven package manager) -i (install)
+
+OPENVAS (OPEN VERBALITY ASSISMENT SYSTEM)
+apt-get update && apt-get dist-upgrade -y
+(
+apt-get install openvas -y
+or
+apt-get install openvas
+)
+openvas-setup
+
+checking openvas port
+netstat -antp
+openvas-check-setup
+
+-> it will sync OpenVAS SCAP database files.
+greenbone-scapdata-sync
+openvas-check-setup 
+openvas-start
+
+
+------------------
+apt-get install openvas
+gvm-setup
+
+------------------------
+web application vulnerability scanning
+apt-get install nikto
+nikto -h 192.168.29.62 -p 65535
+nikto -h http:// www.example.com
+nikto -h https://www.aptechmeerut.com/
+nikto -h 192.168.30.128 -o test.html -F html
+nikto -h <hostname> -Format msf+

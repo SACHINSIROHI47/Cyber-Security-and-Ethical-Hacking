@@ -1,0 +1,65 @@
+sudo update-alternatives --config java
+sudo update-alternatives --list java
+libwebkitgtk
+sudo vi /etc/apt/sources.list
+deb http://ftp.debian.org/debian/ oldstable main contrib non-free
+insert press - i
+pres  :wq
+sudo apt update
+
+
+
+
+---------------------------------------------------
+install rapidscan tool for website 
+git clone https://github.com/skavngr/rapidscan.git
+chmod +x rapidscan.py
+./rapidscan.py
+
+website scan by rapidscan
+./rapidscan.py http://aptechmeerut.com
+ 	or
+python rapidscan.py http://aptechmeerut.com
+
+
+-------------------nikto tool-------------
+nikto -h
+nikto -h http://aptechmeerut.com
+
+------------other scanning tool-------
+whois -H http://aptechmeerut.com
+nslookup http://aptechmeerut.com
+
+------------vega framework for website sploit in kali linux--------
+uname -m   check kali os version
+1) check java version=   java --version and check 64,32 bit =lscpu in kali linux
+because vega install only jdk 8 version
+go to oracle website you have to login with oracle id if not then create
+download jdk 8 64bit for linux
+after extract and move to java location(usr/bin/jvm/) for vega tool
+after download in kali linux web browser jdk8 (java 8 version)
+@mv /home/aptech/Downloads/jdk8  /usr/lib/jvm
+@ sudo update-alternatives --list java
+@ sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-8/bin/java 1
+@sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk-8/bin/java 1 
+1 means priority
+@sudo update-alternatives --display java
+@sudo update-alternatives --config java
+@select jdk selection priority 2 any given in terminal
+@java -version after jdk install java -version only work
+
+install vega
+2) create the root login for full previlige
+ sudo passwd root
+3) cd /etc/apt/
+ls
+nano sources.list
+deb http://deb.debian.org/debian oldstable main contrib non-free
+ctrl+x
+cat sources.list
+4) sudo apt-get update
+5) sudo apt-get install libwebkitgtk-1.0
+after this install successfully
+
+
+

