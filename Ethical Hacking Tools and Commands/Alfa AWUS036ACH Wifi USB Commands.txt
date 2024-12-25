@@ -1,0 +1,20 @@
+First check your USB
+lsusb
+apt update
+apt-get upgrade
+apt-get dist-upgrade -y
+apt install dkms
+apt install realtek-rtl88xxau-dkms
+ifconfig
+iwconfig
+airmon-ng
+airmon-ng start wlan0
+airmon-ng check kill
+airodump-ng wlan0
+
+apt install git
+git clone https://github.com/aircrack-ng/rtl8812au.git
+cd rtl8812u
+make
+make install
+
